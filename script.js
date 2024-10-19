@@ -43,6 +43,5 @@ var x = setInterval(function () {
     document.getElementById("days").innerHTML = "00<br>Days";
     document.getElementById("hours").innerHTML = "00<br>Hours";
     document.getElementById("minutes").innerHTML = "00<br>Minutes";
-    document.getElementById("seconds").innerHTML = "00<br>Seconds";
   }
 }, 1000);
