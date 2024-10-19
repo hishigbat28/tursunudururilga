@@ -184,6 +184,45 @@
   }
 }
 
+.celeb {
+  width: 100%;
+  height: fit-content;
+  font-family: "Pacifico", cursive;
+  font-style: italic;
+  color: rgb(0, 59, 126);
+  margin-left: 46px;
+  margin-top: 35px;
+}
+.celebtxt {
+  margin-left: 46px;
+  margin-top: 14px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.timer {
+  display: flex;
+  width: 100%;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-bottom: 70px;
+}
+
+.time-unit {
+  background-color: #ff6b35;
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+  padding: 5px;
+  border-radius: 10px;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 15px;
+}
+
 @media (max-width: 425px) {
   .ehniih .frame {
     top: 100px;
