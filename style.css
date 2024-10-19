@@ -45,7 +45,7 @@
   left: 170px;
   font-family: "Pacifico", cursive;
   font-style: italic;
-  color: brown;
+  color: rgb(0, 59, 126);
 }
 .ehniih .birthner {
   position: absolute;
@@ -64,6 +64,7 @@
   padding: 6px;
   border-radius: 5px;
 }
+
 @media (max-width: 425px) {
   .ehniih .frame {
     top: 100px;
@@ -105,36 +106,36 @@
   }
   .ehniih .song {
     top: 485px;
-    left: 35px;
+    left: 15px;
   }
 }
 @media (max-width: 382px) {
-    .ehniih .frame {
-      top: 60px;
-      left: 60px;
-    }
-    .ehniih .urilgatxt {
-      top: 370px;
-      left: 80px;
-    }
-    .ehniih .ner {
-      top: 380px;
-      left: 130px;
-    }
-    .ehniih .birthner {
-      top: 430px;
-      left: 80px;
-    }
-    .ehniih .song {
-      top: 475px;
-      left: 25px;
-    }
+  .ehniih .frame {
+    top: 60px;
+    left: 60px;
   }
-  @media (max-width: 375px) {
-    .ehniih .song {
-      top: 475px;
-      left: 45px;
-      padding: 3px;
-      font-size: 14px;
-    }
+  .ehniih .urilgatxt {
+    top: 370px;
+    left: 80px;
   }
+  .ehniih .ner {
+    top: 380px;
+    left: 130px;
+  }
+  .ehniih .birthner {
+    top: 430px;
+    left: 80px;
+  }
+  .ehniih .song {
+    top: 475px;
+    left: 15px;
+  }
+}
+@media (max-width: 375px) {
+  .ehniih .song {
+    top: 475px;
+    left: 35px;
+    padding: 3px;
+    font-size: 14px;
+  }
+}
