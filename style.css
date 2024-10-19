@@ -64,6 +64,10 @@
   padding: 6px;
   border-radius: 5px;
 }
+.ehniih .song:active{
+    color: yellow;
+    transform: scale(0.9);
+}
 
 @media (max-width: 425px) {
   .ehniih .frame {
