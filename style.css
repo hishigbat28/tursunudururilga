@@ -98,7 +98,7 @@
   25% {
     transform: rotate(10deg);
   }
-  50%{
+  50% {
     transform: rotate(-10deg);
     border-radius: 50%;
   }
@@ -122,6 +122,66 @@
   color: rgb(0, 59, 126);
   text-align: center;
   margin-top: 4px;
+}
+
+.doloonsar {
+  width: 75%;
+  height: 300px;
+  background-color: rgb(1, 40, 102);
+  margin: auto;
+  margin-top: 50px;
+  overflow: hidden;
+  animation: huu3 2s infinite linear;
+}
+.doloonsar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+@keyframes huu3 {
+  0% {
+    border-radius: none;
+  }
+  25% {
+    border-top-left-radius: 100px;
+  }
+  50% {
+    border-top-right-radius: 100px;
+  }
+  75% {
+    border-bottom-right-radius: 100px;
+  }
+  85% {
+    border-bottom-left-radius: 100px;
+  }
+  100% {
+    border-radius: none;
+  }
+}
+.arvannegsar {
+  width: 75%;
+  height: 300px;
+  background-color: rgb(1, 40, 102);
+  margin: auto;
+  margin-top: 50px;
+  overflow: hidden;
+  animation: huu4 2s infinite linear;
+}
+.arvannegsar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+@keyframes huu4 {
+  0% {
+    border-radius: none;
+  }
+  50% {
+    border-radius: 50%;
+  }
+  100% {
+    border-radius: none;
+  }
 }
 
 @media (max-width: 425px) {
